@@ -48,6 +48,7 @@ function Todo(props) {
 
     const peddingTask = (task) => {
         axios.put(`${URL}/${task.id}`, { ...task, done: false})
+        
         .then((response) => {
             getTasks()
         })

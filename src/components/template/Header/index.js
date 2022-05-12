@@ -13,8 +13,7 @@ function Header(props) {
                         <Link to="/home" className="nav-link">Home</Link>
                         <Link to="/about" className="nav-link">About</Link>
                         <Link to="/register" className="nav-link">Customer</Link>
-                        <Link to="/listcustomer" className="nav-link">List Customer</Link>
-                        <Link to="/editcustomer" className="nav-link">Edit Customer</Link>
+                        <Link to="/user" className="nav-link">List Customer</Link>
                     </Nav>
                 </Container>
             </Navbar>
